@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "table.module.scss"
+    ],
+    "names": [],
+    "file": "table.module.css"
+}

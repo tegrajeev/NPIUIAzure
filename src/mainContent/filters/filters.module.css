@@ -1,0 +1,31 @@
+.col-filter {
+  padding: 0.5rem 1rem 0 1rem;
+  height: auto !important;
+}
+
+.col-filter .col-label {
+  padding-bottom: 4px;
+}
+
+.rc-virtual-list-holder{
+  overflow: auto !important;
+}
+
+.rc-virtual-list-scrollbar rc-virtual-list-scrollbar-show{
+  display: none !important;
+}
+
+@media only screen and (max-width: 420px) {
+  .col-filter {
+    padding: 0.5rem 1rem 0.5rem;
+    height: 100px !important;
+  }
+  .col-filter .col-label {
+    padding-bottom: 0px;
+    min-height: 44px !important;
+  }
+  :global .error-text {
+    display: none;
+  }
+}
+/*# sourceMappingURL=filters.module.css.map */

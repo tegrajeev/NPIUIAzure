@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.content{
+    margin-left: 0;
+    padding: 15px;
+    width: 100%;
+    .search-filter-wrapper{
+        background-color: #fff;
+        border-radius: 2px;
+        -webkit-box-shadow: 0 2px 4px rgb(0 0 0 / 20%);
+        box-shadow: 0 2px 4px rgb(0 0 0 / 20%);
+        .npi-search-wrapper{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding: 0.2rem 1rem 0.2em 0.5rem;
+            .site-page-header{
+                padding: 5px 24px;
+            }
+            .npi-search-option{
+                label{
+                    padding: 0 0.5rem;
+                }
+            }
+        }
+        .filter-action-wrapper{
+            padding: 1rem;
+            display: flex;
+            .filter-action-col{
+                padding: 0 0.5rem;
+            }
+        }
+    }
+    .filter-container{
+        width: 100%;
+        text-align: start;
+        padding: 0rem 1rem 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        .col-filter{
+            padding: 0 1rem;
+        }
+        &.hide{
+            opacity: 0;  
+            display: none;        
+            transition: opacity 200ms linear;            
+        }
+        &.show{
+            opacity: 1;
+            display: flex;
+            transition: opacity 200ms linear; 
+        }
+    }
+    .more-filter-option{
+        padding: 0.1rem;
+        display: flex;
+        justify-content: end;
+        div{
+            cursor: pointer;
+            font-size: 17px;
+        }
+    }
+    
+}
+.view-page-wrapper{
+    margin-left: auto; 
+    margin-right: 0;
+    padding-right: 8px;
+    font-size: 16px;
+}
+
+.table-result-wrapper{
+    // padding: 0em 0 1em 0;
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 20%);
+    :global{
+        .ant-table-cell{
+            padding: 10px 8px !important;
+            p{
+                margin-bottom: 0px !important;
+            }
+        }
+    }
+}
+
+:global {
+    .ant-divider{
+        margin: 0px !important;
+        background-color: #e9e9eb;
+    }
+    .ant-tabs{
+        overflow: auto !important;
+    }
+    // .error{
+    //     outline: 1px solid red;
+    // }
+    .error-text{
+        color:red;
+        line-height: 17px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+}

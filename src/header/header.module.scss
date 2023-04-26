@@ -1,0 +1,21 @@
+$font-primary-color: #000;
+$primary-bg-color: #fff;
+.header{
+    background-color: $primary-bg-color;
+    color: $font-primary-color;
+    box-shadow: 2px 4px 10px rgb(0 0 0 / 20%);
+    height: 56px;    
+    padding: .5rem 2rem;
+    align-items: center;
+    .logo{
+        img{
+            max-width: 200px;
+        }
+    }
+    .client-name{
+        color: #212529;
+        text-align: right;
+        font-size: 15px;
+        font-weight: 500;
+    }
+}
